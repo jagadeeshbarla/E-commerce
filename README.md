@@ -1,4 +1,3 @@
-# E-commerce
 # 🛒 E-Commerce Shopping Website
 
 A monolithic full-stack web application developed using **Spring Boot** and **JSP**, focusing on backend architecture, robust database integration, and dynamic content rendering. This platform simulates a basic online shopping experience and supports essential e-commerce operations.
@@ -21,22 +20,23 @@ A monolithic full-stack web application developed using **Spring Boot** and **JS
 - **Spring MVC**
 - **Spring Data JPA**
 - **Hibernate**
-- **MySQL** (or H2 for in-memory testing)
+- **MySQL** 
 
 ### Frontend
 - **JSP / JSTL**
 - **HTML / CSS**
-- **Bootstrap** (for responsive design)
+
 
 ### Tools & Others
 - **Maven**
 - **Git & GitHub**
 - **Postman** (for API testing)
-- **IntelliJ IDEA / Eclipse**
+- ** Eclipse**
 
-## 🏥 Use Case Example
+## 🛍️ Use Case
 
-This system supports individuals such as **healthcare professionals** by providing a streamlined interface for ordering essential supplies, managing inventory, and tracking transactions — all from a centralized platform.
+This application is designed to support small businesses and individual sellers in managing their online storefront. It enables users to browse and purchase products with ease, while offering administrators tools to manage inventory, track orders, and maintain user accounts — all in a streamlined and centralized system.
+
 
 ## 🏗️ Architecture
 
@@ -60,3 +60,20 @@ This application follows a **monolithic architecture** with layered design:
    ```bash
    git clone https://github.com/jagadeeshbarla/E-commerce.git
    cd E-commerce
+2. **Configure MySQL Database**
+Update application.properties with your MySQL credentials.
+
+3. **Build and Run**
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
+4. **Access the App**
+
+User Portal: http://localhost:8080
+Admin Portal: http://localhost:8080/admin
+
+
+     
+📃 License
+This project is for educational purposes and is open-source under the MIT License.
+
